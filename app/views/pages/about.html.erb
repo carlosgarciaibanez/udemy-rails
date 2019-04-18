@@ -1,0 +1,52 @@
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Alpha Blog</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><%= link_to raw('Alpha<span class="logo_colour">Blog</span>'), root_path%></h1>
+          <h2>Simple. Contemporary. Blog.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li><%= link_to 'Home', root_path %></li>
+          <li class="selected"><%= link_to 'About', about_path %></li>
+        </ul>
+      </div>
+    </div>
+    <div id="content_header"></div>
+    <div id="site_content">
+      <div id="banner"></div>
+      <div id="content">
+        <!-- insert the page content here -->
+        <h1>A Bit About Us</h1>
+        <p>Lorem ipsum sim amet</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris et augue enim. Maecenas ut dictum turpis. Proin condimentum massa eget vehicula sagittis. Aenean eu magna egestas sapien vehicula elementum. Aenean vel imperdiet ligula. Curabitur tortor erat, luctus non leo nec, sodales maximus purus. Duis tincidunt viverra convallis. Suspendisse condimentum quam tincidunt, pretium leo eu, egestas dui. Sed maximus mauris vel ligula luctus ultricies. Fusce tempus pharetra sapien, id iaculis risus varius vel.</p>
+        <p>Sed vel luctus sem, in auctor est. Pellentesque eleifend eget nisi non malesuada. Sed egestas justo vehicula tempor auctor. Aliquam arcu ligula, egestas sit amet eleifend sed, elementum at lorem. Pellentesque non dictum lorem. In suscipit interdum est id pellentesque. In luctus mi vitae ultrices volutpat. Pellentesque eu nunc ut sapien vulputate ornare. Donec fringilla turpis non rutrum scelerisque.</p>
+        <p>Phasellus dui ante, feugiat eget porttitor sit amet, semper sit amet mi. Phasellus viverra rhoncus ligula, vel suscipit lorem ornare et. Quisque sit amet mauris non tellus tempus auctor id in augue. Etiam eu aliquet sapien, nec venenatis orci. Pellentesque nec convallis mi, vitae malesuada felis. Cras sed laoreet sapien. Aenean eget mollis dui, quis congue leo. Morbi arcu lorem, sodales vel tristique ut, tincidunt sit amet turpis. Suspendisse potenti. Maecenas egestas mauris et pharetra sollicitudin.</p>
+        <p>Pellentesque porttitor, lacus at scelerisque sollicitudin, metus orci ornare eros, vitae ultrices dui mi molestie orci. Praesent sodales turpis a mauris faucibus, eget pellentesque risus efficitur. Aenean efficitur, justo quis scelerisque pellentesque, arcu est convallis magna, imperdiet eleifend justo ipsum eget ipsum. Duis quis mi eget risus molestie rutrum at non sem. Praesent mattis ligula eget tincidunt volutpat. Praesent aliquet viverra condimentum. Aenean malesuada orci vitae dui vulputate eleifend.</p>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec non consectetur dui. Praesent sed justo interdum, aliquet dolor vel, tempor leo. Etiam mattis metus mauris, non placerat nisi finibus eget. Vestibulum et placerat erat. Maecenas at dapibus quam, vel mattis diam. Morbi libero enim, elementum vitae est at, efficitur volutpat est. Aliquam erat volutpat. Nullam auctor vehicula porta. Nunc auctor scelerisque nisl varius finibus. Sed in nisi eget sem facilisis rutrum.</p>
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      <p><%= link_to 'Home', root_path %></p>
+      <p>Copyright &copy; simplestyle_horizon | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a></p>
+    </div>
+  </div>
+</body>
+</html>
