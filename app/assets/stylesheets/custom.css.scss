@@ -40,13 +40,13 @@ $navbar-default-bg: black;
   background: black;
 }
 
-.btn-danger {
-  border: none;
+.article-actions {
+  border-top: 1px solid #eaeaea;
+  padding-top: 5px;
 }
 
-.btn-danger:hover {
-  background: cyan;
-  color: black;
+.description {
+  margin-top: 0;
 }
 
 .footer {
